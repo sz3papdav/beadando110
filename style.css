@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: beige;
+}
+
+#kontener {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#gombok button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#gombok button:hover {
+    background-color: #45a049;
+}
+
+#legorduloMenu {
+    margin-left: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size: 80%;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+#tartalom {
+    margin-bottom: 20px;
+}

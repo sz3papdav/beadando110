@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beadandó</title>
+</head>
+<body>
+    <div id="kontener">
+        <div id="gombok">
+            <button id="elozoBtn">Előző oldal</button>
+            <button id="kovetkezoBtn">Következő oldal</button>
+        </div>
+        <div id="legorduloMenu">
+            <label for="elemekOldalankent">Elemek oldalanként:</label>
+            <select id="elemekOldalankent" onchange="valasztottElemekMegvaltoztatasa()">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20" selected>20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+                <option value="90">90</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+    </div>
+    <div id="tartalom"></div>
+    <script src="script.js"></script>
+</body>
+</html>
